@@ -2,9 +2,9 @@
 [FastGH3](https://github.com/donnaken15/FastGH3) is a modified version of *Guitar Hero III* for PC that allows the user to quickly load and play custom song charts.  Since version 1.1, it allows for loading QB mods, in the form of `*.qb.xen` files.
 
 ## Acceleration Mode
-This is the first of my mods for FastGH3.  It makes the game speed up with every note hit, and steadily slow down while the current note streak is zero.  Currently, the speed increments and limits are hardcoded and unaffected by the song speed set in FastGH3 settings, but that may change to become configurable.
+This is the first of my mods for FastGH3.  It makes the game speed up with every note hit, and steadily slow down while the current note streak is zero.  Currently, the speed increments and limits are hardcoded, and the song speed set in FastGH3 settings won't affect the base/starting speed, but that may change to become configurable soon.
 
-Video showcase : *soon™*
+[Here's a video showcasing the mod in action!](https://youtu.be/LJt_AqU60Hk)
 
 ## Installation (`*.qb.xen` mods)
 1. Open FastGH3's settings (Run `FastGH3.exe -settings` *or* the `settings.bat` file in the FastGH3 installation folder)
