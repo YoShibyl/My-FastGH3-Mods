@@ -4,7 +4,9 @@
 ## Acceleration Mode
 This is the first of my mods for FastGH3.  It makes the game speed up with every note hit, and steadily slow down while the current note streak is zero.  Currently, the speed increments and limits are hardcoded, and the song speed set in FastGH3 settings won't affect the base/starting speed, but that may change to become configurable soon.
 
-[Here's a video showcasing the mod in action!](https://youtu.be/LJt_AqU60Hk)
+https://github.com/user-attachments/assets/5b3a9030-cad8-4b99-adec-d7e37bcad044
+
+[Here's a different video showcasing the mod in action!](https://youtu.be/LJt_AqU60Hk)
 
 ## Installation (`*.qb.xen` mods)
 1. Open FastGH3's settings (Run `FastGH3.exe -settings` *or* the `settings.bat` file in the FastGH3 installation folder)
