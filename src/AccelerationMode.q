@@ -5,14 +5,14 @@ mod_info = {
     name = 'Acceleration Mode'
     desc = 'Song speeds up with every note hit'
     author = 'Yoshibyl'
-    version = '1.1.1-beta'
+    version = '1.1.2-beta'
     params = [
         { name = 'AccelerationMode_Enabled' default = 1 type = bool ini = ['Mods' 'AccelerationMode_Enabled'] }
         // { name = 'max_speedup_percent' default = 200 min = 125 max = 300 type = number } // later
     ]
 }
 
-script mod_startup
+script AccelerationMode_startup
     //   soon™
     // min_speedup = ($current_speedfactor)
     // base_speed = ($current_speedfactor)
@@ -55,6 +55,7 @@ script mod_startup
         endif
         
         // TO DO: Figure out how to append the menu instead of rewriting the whole menu.
+        
         change extras_menu = [
             // guide
             // (NO NAME) = variable to set
