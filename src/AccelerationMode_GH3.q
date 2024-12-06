@@ -5,7 +5,7 @@ mod_info = {
     name = 'Acceleration Mode'
     desc = 'Song speeds up with every note hit'
     author = 'Yoshibyl'
-    version = '1.1.0-beta'
+    version = '1.1.1-beta'
     params = [
         { name = 'AccelerationMode_Enabled' default = 1 type = bool ini = ['Mods' 'AccelerationMode_Enabled'] }
         // { name = 'max_speedup_percent' default = 200 min = 125 max = 300 type = number } // later
@@ -46,7 +46,7 @@ script mod_startup
         endif
         
         GetSongTimeMs
-        if (<time> < -1500 || $accel_mode_enabled = 0)  // Reset the speed on song (re)start or disabling mod
+        if (<time> < 0 || $accel_mode_enabled = 0)  // Reset the speed on song (re)start or disabling mod
             change current_speedfactor = (1.0)
             setslomo \{$current_speedfactor}
             setslomo_song \{slomo = $current_speedfactor}
