@@ -1,5 +1,5 @@
 # Yoshibyl's mods for FastGH3
-[FastGH3](https://github.com/donnaken15/FastGH3) is a modified version of *Guitar Hero III* for PC that allows the user to quickly load and play custom song charts.  Since version 1.1, it allows for loading QB mods, in the form of `*.qb.xen` files.
+[FastGH3](https://github.com/donnaken15/FastGH3) is a modified version of *Guitar Hero III* for PC that allows the user to quickly load and play custom song charts.  In newer versions, it allows for loading QB mods, in the form of `*.qb.xen` files.
 
 ## How to install `.qb.xen` mods
 1. Open FastGH3's settings (Run `FastGH3.exe -settings` *or* the `settings.bat` file in the FastGH3 installation folder)
@@ -18,6 +18,12 @@ https://github.com/user-attachments/assets/5b3a9030-cad8-4b99-adec-d7e37bcad044
 
 ## Star Power percentage display
 A simple mod that shows exactly how much Star Power you currently have.
+
+<details open>
+  <summary>Screenshot (StarPowerPercent)</summary>
+  
+![image](https://github.com/user-attachments/assets/617b1bfe-bab9-4440-8a2a-2dd31e3c23c5)
+</details>
 
 ## Custom Player Name display
 This mod adds custom text below the strikeline, which you can change in FastGH3's `settings.ini` under the `[Mods]` section.
@@ -40,7 +46,7 @@ To disable a player name for either or both players, change the respective playe
 If playing a boss battle chart (such as [this chart](https://drive.google.com/file/d/1GVKMmUK926fHVu_UE0KKTNU7-6cLIbve/view?usp=sharing) of OGAP by DragonForce), then the name of Player 2 will display as the name specified in the song's `boss.ini`, unless `CustomPlayerName_P2` is set to `0`.
 
 <details open>
-  <summary>Screenshot of CustomPlayerName</summary>
+  <summary>Screenshot (CustomPlayerName)</summary>
 
 ![image](https://github.com/user-attachments/assets/692223e0-1015-4610-b35d-a607b109e1b9)
 
