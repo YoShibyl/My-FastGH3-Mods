@@ -41,9 +41,26 @@ This mod adds custom text below the strikeline, which you can change in FastGH3'
 ```
 </details>
 
-To disable a player name for either or both players, change the respective player's name value to equal `0` *(Do NOT leave it blank!!)*
+To disable a player name for either or both players, change the respective player's name value to equal `0`, as leaving it blank will currently cause the text to show up as a garbage string.
 
 If playing a boss battle chart (such as [this chart](https://drive.google.com/file/d/1GVKMmUK926fHVu_UE0KKTNU7-6cLIbve/view?usp=sharing) of OGAP by DragonForce), then the name of Player 2 will display as the name specified in the song's `boss.ini`, unless `CustomPlayerName_P2` is set to `0`.
+
+### Color codes
+![image](https://github.com/user-attachments/assets/32157b97-b4f9-4895-becc-f8d070aa7048)
+
+If you'd like to change the colors of the name(s), you can type `\c` followed by a number `0-9`, or letter `a`, `b`, or `c`; and then the name.
+
+<details open>
+<summary>Example of Color Codes</summary>
+
+```ini
+CustomPlayerName_P1=\c2R\c6A\c5I\c4N\c8B\c3O\c7W
+```
+
+![image](https://github.com/user-attachments/assets/cbc91e49-0c88-486d-9435-32c51b0883be)
+
+
+</details>
 
 <details open>
   <summary>Screenshot (CustomPlayerName)</summary>
