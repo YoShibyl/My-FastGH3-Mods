@@ -4,8 +4,13 @@
 ## How to install `.qb.xen` mods
 1. Open FastGH3's settings (Run `FastGH3.exe -settings` *or* the `settings.bat` file in the FastGH3 installation folder)
 2. Click the QB Mods button, then click the plus **[+]** button in the bottom-left corner of the dialog.  From here, navigate to where you downloaded the mod `.qb.xen` file, and select it.
-3. Load your favorite chart, and enjoy the suffering!
+3. Load your favorite chart, and enjoy!
+
+<details open>
+  <summary>Infographic</summary>
+  
 ![image](https://github.com/user-attachments/assets/77f63f13-18d5-4b93-b2c5-92d51d95a105)
+</details>
 
 To disable a mod, click on the mod in the QB Mods dialog, and check the Disable box.  Alternatively, you can uninstall it completely by clicking the minus **[-]** button.
 
@@ -17,7 +22,7 @@ https://github.com/user-attachments/assets/5b3a9030-cad8-4b99-adec-d7e37bcad044
 [Here's a different video showcasing the mod in action!](https://youtu.be/LJt_AqU60Hk)
 
 ## Star Power percentage display
-A simple mod that shows exactly how much Star Power you currently have.
+A simple mod that shows exactly how much Star Power you currently have.  As of [version 1.1.1](https://github.com/YoShibyl/My-FastGH3-Mods/releases/tag/1.2.2), if you switch to 2-player Faceoff or Pro Faceoff mode, then the percentages will appear above the highway instead of below the Rock Meter.
 
 <details open>
   <summary>Screenshot (StarPowerPercent)</summary>
